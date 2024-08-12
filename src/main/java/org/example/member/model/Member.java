@@ -5,6 +5,8 @@ public class Member {
     private String name; // 멤버의 이름 및 로그인 아이디
     private String pass; // 멤버의 비밀번호
     private Long age; // 나이
+    private Long money;
+    private String nick;
 
     public Long getId() {
         return id;
