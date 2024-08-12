@@ -14,6 +14,7 @@ public class BoardController {
     public void addBoard(HttpAddBoardRequest request, Member member) {
         // TODO
         //  addBoard 관련 service 접근 코드 구현
+        boardService.addBoard(request.getTitle(), request.getContent(), member);
     }
 
     public List<Board> findAll() {
